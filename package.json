@@ -1,6 +1,6 @@
 {
   "name": "@ctsy/json2pb",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "repository": "https://github.com/c-tsy/json2pb.git",
   "author": "yanpengquan <castle@tansuyun.cn>",
