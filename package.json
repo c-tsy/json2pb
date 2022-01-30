@@ -1,0 +1,22 @@
+{
+  "name": "@ctsy/json2pb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/c-tsy/json2pb.git",
+  "author": "yanpengquan <castle@tansuyun.cn>",
+  "license": "MIT",
+  "types": "index.d.ts",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "README.md"
+  ],
+  "bin": {
+    "json2pb": "./bin.js"
+  },
+  "scripts": {
+    "json2pb": "node ./bin.js",
+    "build": "webpack --config webpack.config.js",
+    "prepublish": "npm run build"
+  }
+}
