@@ -18,7 +18,13 @@ console.log(pbcontent)
 ```
 ### 输出内容
 ```
-
+syntax = "proto3";
+import "google/protobuf/timestamp.proto";
+package test;
+message method{
+	string abc = 1;
+	repeated int64 d = 2;
+}
 ```
 
 更多修改请参见bin.js文件
