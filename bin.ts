@@ -8,7 +8,7 @@ if ('.json' != extname(file)) {
 let dir = dirname(process.argv[2])
 let name = file.replace('.json', '')
 writeFileSync(
-    join(dir, name + '.pb'),
+    join(dir, name + '.proto'),
     json2pb(
         JSON.parse(readFileSync(process.argv[2], { encoding: 'utf8' })),
         process.argv[3] || name,
